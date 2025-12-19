@@ -1,3 +1,3 @@
 ## README
 
-This folder contains the code for the project.
+This folder contains the code for the project. `multigame.py` cleans the raw Premier League match data and creates features based on ball and player locations. `baseline.ipynb` fits baseline logistic models on several subsets of features. `all-season_model.ipynb` fits our own xG and xS models with XGBoost and generates outputs with predicted xG, xS, and xG+ for later evaluation. `stability_test.ipynb` generates predictions on the test set from 10 models for stability evaluation, each of which is trained on 90% of the training set. Note that AWS Access Key ID and Secret Access Key are redacted in all codes for security reasons. 
